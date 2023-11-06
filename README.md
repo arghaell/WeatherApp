@@ -1,5 +1,5 @@
-# WeatherApp using the openweather API
+# WeatherApp using the openweathermap API
 
-# Desktop screens 
+# Desktop screens atm
 
-#WIP
+# Work In Progress
