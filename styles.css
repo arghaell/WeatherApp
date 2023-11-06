@@ -1,0 +1,58 @@
+/* Nanum Gothic Monospace font */
+/* @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700&display=swap");
+
+:root {
+  --primary-font: "Fira Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://source.unsplash.com/1920x1080/?landscape");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background: black;
+  opacity: 0.8;
+  border-radius: 25px;
+  color: white;
+  padding: 25px;
+}
+
+.input__city {
+  border: none;
+  outline: none;
+  /* line-height: 32px; */
+  border-radius: 25px;
+  font-size: 20px;
+  width: calc(100% - 100px);
+  background-color: #7c7c7c2b;
+}
+
+.button__search {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #7c7c7c2b;
+  cursor: pointer;
+  float: right;
+}
+
+.img__search {
+  width: 20px;
+}
